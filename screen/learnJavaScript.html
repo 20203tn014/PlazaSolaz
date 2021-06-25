@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende JS</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width-">
+    <link rel="shortcut" href="../assets/img/solaz.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <figure>
+            <img alt="PLAZA SOLAZ-TEMIXCO-MORELOS" width="60" src="../assets/img/solaz.png">
+        </figure>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#about">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../index.html#contact" id="navbarDropdown" 
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contacto
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./learnDiv.html">Aprende Div</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./learnBootstrap.html">Aprende Bootstrap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pokemon.html">Pokemones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./operations.html">Operaciones</a>
+                  </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav">
+            <li>
+                <img class="border border-info rounded-circle" height="40" width="40"
+                    src="../assets/img/perfil.png">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-info">Rodolfo Fabian Campos Salgado</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <section>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <form method="POST" action="" role="form" >
+                            <div class="form-group">
+                                <label>Nombre Completo:<i class="text-danger"> *</i></label>
+                                <input type="text" id="name" class="form-control" value="Rodolfo" />
+                            </div>
+                            <div class="form-group">
+                                <label>Fecha de nacimiento:<i class="text-danger"> *</i></label>
+                                <input type="date" id="birthday" name="birthday" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Comentarios:</label>
+                                <textarea rows="3" id="message" name="message" class="form-control" ></textarea>
+                            </div>
+                            <div class="text-right" >
+                                <button type="button" class="btn btn-outline-success" onclick="formContact()">Iniciar Sesión</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="../js/learnJavaScript.js"></script>
+</body>
+</html>
